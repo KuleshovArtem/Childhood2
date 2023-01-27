@@ -20,6 +20,8 @@
 
 // ** Параметры базы данных: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
+define('WP_CACHE', true);
+define( 'WPCACHEHOME', 'C:\OSPanel\domains\Childhood2\wp-content\plugins\wp-super-cache/' );
 define( 'DB_NAME', 'childhood2' );
 
 /** Имя пользователя базы данных */
